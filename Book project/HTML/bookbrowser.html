@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Mainpage.css">
+    <title>Browse Books</title>
+</head>
+<body>
+    <style>
+        body{
+         background: url(../Images/back.jpg);
+         background-size: 100%;
+         opacity: 90%;
+        } 
+     </style>
+    <header>
+        <div class="logo">BookStore</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="book-search">
+        <h2>Browse Books</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for books...">
+            <button>Search</button>
+        </div>
+        <div class="filter-dropdown">
+            <label for="filter">Filter by:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Non-Fiction</option>
+                <option value="science">Science</option>
+            </select>
+        </div>
+    </section>
+    <section class="book-list">
+        <a href="Book_description.HTML">
+        <div class="book">
+            <img src="../Images/Book1.png" height="500" width="550" alt="Book 1">
+            <h3>The Psycology of Money</h3>
+            <p>Author: Morgan Housel</p>
+        </div>
+        </a>
+        <a href="Book_description1.HTML">
+        <div class="book">
+            <img src="../Images/Book2.jpg" height="500" width="550" alt="Book 2" >
+            <h3>Atomic Habits</h3>
+            <p>Author: James Clear</p>
+        </div>
+        </a>
+        <a href="Book_description2.HTML">
+        <div class="book">
+            <img src="../Images/Book3.jpg" alt="Book 3">
+            <h3>The 4-Hour Workweek</h3>
+            <p>Author: Timothy Ferriss</p>
+        </div>
+    </a>
+    <a href="Book_description3.HTML">
+        <div class="book">
+            <img src="../Images/Book4.jpg" alt="Book 4">
+            <h3>Deep Work</h3>
+            <p>Author: Cal Newport</p>
+        </div>
+    </a>
+    </section>
+    <footer>
+        <p>20BBS0193 Ayush Agarwal</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Book Store</title>
+<style>
+  
+  body{
+    background: url(../Images/back.jpg);
+    background-size: 100%;
+    opacity: 100%;
+  } 
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .login-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .login-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #55d5b9;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3378aa;
+}
+</style>
+</head>
+<body>
+<div class="login-container">
+  <h2 class="login-heading">Login to Book Store</h2>
+  
+    <input type="text" class="input-field" placeholder="Username" required>
+    <input type="password" class="input-field" placeholder="Password" required>
+    <a href="bookbrowser.html" class="btn">Browse Books</a>
+
+</div>
+</body>
+</html>
